@@ -3,7 +3,6 @@ export const cocreatieData = [
   {
     person: "Luca",
     introduction: {
-        text: "Luca and a friend where waiting in the Randwijck canteen, where they had 2 hours to kill before their lecture. We had cookies, stroopwafels and an opportunity for distraction. A match made in heaven!",
         text: (
             <>
             Luca and a friend were waiting in the Randwijck canteen, where they had 2 hours to kill before their lecture. 
@@ -33,11 +32,11 @@ export const cocreatieData = [
         ],
         quote: "I am an extrovert that gets along with introverts"
     },
-    brainstorm:{
-        1: "I prefer practicing VR alone. Group sessions are often chaotic.",
-        2: "Agreed. I'd rather do it at home or in a quiet space. Now lot’s of things are just explained with words. It would be great to see cells or molecular processes in 3D.",
-        3: "Exactly! If I can see it, I get it instantly.",
-    },
+    brainstorm:[
+        "I prefer practicing VR alone. Group sessions are often chaotic.",
+        "Agreed. I'd rather do it at home or in a quiet space. Now lot’s of things are just explained with words. It would be great to see cells or molecular processes in 3D.",
+        "Exactly! If I can see it, I get it instantly.",
+    ],
     course: "Biomedical Approaches",
     courseStory: {
         drawing1: {
@@ -65,5 +64,65 @@ export const cocreatieData = [
   },
   {
     person: "Adia",
+    introduction: {
+        text: (
+            <>
+            Adia and a friend were waiting in the Randwijck canteen, where they had 2 hours to kill before their lecture. 
+            We had cookies, stroopwafels and an opportunity for distraction.
+            <strong> A match made in heaven!</strong>
+            </>
+        ),
+        image: {
+            src: "/images/image_luca_adia.png",
+            alt: "Luca and Adia in the canteen",
+        },
+    },
+    profile: {
+        name: "Adia",
+        image: {
+            src: "/images/Adia_profile.svg",
+            alt: "Adia's profile picture"
+        },
+        age: 21,
+        country: "Afghanistan",
+        study: "Biomedical Sciences",
+        personalityTraits: [
+        { trait: "Caring", color: "#FF63E5" },
+        { trait: "Extrovert", color: "#B0AFC6" },
+        { trait: "Patient", color: "#FF63E5" },
+        { trait: "Adventurous", color: "#B5EF8A" }
+        ],
+        quote: "People appreciate my patience and outgoingness.",
+    },
+    brainstorm:[
+        "Now that you've tried some VR, which course do you think could really benefit from it?",
+        "Honestly, a lot of courses could be improved like biology, where we could use VR to look inside the body and explore cells in 3D.",
+        "What kind of environment would help you the most?",
+        "Maybe a quiet beach or a peaceful library, where I can focus, write down my goals, and check in without feeling rushed or judged."
+    ],
+    course: "Mentoring track",
+    courseStory: {
+        drawing1: {
+            src: "",
+            alt: "Sisyphos pushing a boulder",
+        },
+        drawingText1: "This course aims to help students with support from a professor or mentor. However, many students currently find it difficult and experience the track as unhelpful and frustrating.",
+        drawing2: {
+            src: "",
+            alt: "Crowded lab",
+        },
+        drawingText2: "",
+        drawing3:{
+            src: "",
+            alt: "Frustrated student",
+        },
+        drawingText3: "On the other side there is a professor or tutor that’s very busy and doesn’t have that much time. Understandably, this is an extra activity for them to do beside their jobs, resulting in sessions where everything is quickly handled, but sometimes the students wish for more time/help.",
+        drawing4: {
+            src: "",
+            alt: "A laptop opened, but no mentor in sight",
+        },
+        drawingText4: "The solution: A VR experience where the students can choose their own environment, like a relaxing beach or quiet library, and the students can go in on their own accord (or planned sessions) and keep track of their progress in a little booklet (or something else of choice, as long as they can write something on it). The mentor could see the environment as well, and go in on their own accord too or plan sessions with the student.",
+    },
+    conclusion: "What if students could reflect on their progress and connect with mentors whenever and wherever they feel most at ease? Instead of rushed meetings squeezed between busy schedules, students can step into a calm, personalized VR space one that invites focus, reflection, and meaningful connection. By creating a VR experience where students can set learning goals, track their progress, and meet with mentors in an environment they choose, we open the door to active autonomy. They decide when to check in, where they want to be, and how they want to work. In this immersive space, distractions fade, and motivation has room to grow. Somewhere they can write in a virtual journal, revisit their goals, or reflect without judgment. And because it’s all in VR, mentors can join too whether in a planned session or spontaneously sharing the same virtual setting. This shared remote presence helps build connection, even from a distance.",
   },
 ]

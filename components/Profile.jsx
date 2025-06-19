@@ -28,7 +28,7 @@ export default function Profile(props) {
                 <div className="flex flex-col gap-[20px] w-1/2">
                     <p className="w-min bg-[#7FC29B] p-[20px] rounded-[30px] text-2xl">{props.name}</p>
                     <p className="w-min bg-[#FF63E5] pl-[20px] pr-[20px] pt-[5px] pb-[5px] rounded-[20px]">{props.study}</p>
-                    <p className="w-max bg-[#B5EF8A] pl-[20px] pr-[20px] pt-[5px] pb-[5px] rounded-[20px]">{props.age}</p>
+                    <p className="w-max bg-[#B5EF8A] pl-[20px] pr-[20px] pt-[5px] pb-[5px] rounded-[20px]">{props.age} years old</p>
                     <p className="w-max bg-[#B0AFC6] pl-[20px] pr-[20px] pt-[5px] pb-[5px] rounded-[20px]">{props.country}</p>
                     <p className="w-fit bg-[#7FC29B] p-[20px] rounded-[30px]">“{props.quote}”</p>
                 </div>

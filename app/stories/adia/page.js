@@ -1,4 +1,3 @@
-
 import NavBar from "@/components/NavBar"
 import Footer from "@/components/Footer"
 import Title from "@/components/Title"
@@ -8,11 +7,10 @@ import Brainstorming from "@/components/Brainstorming"
 import Drawing from "@/components/Drawing"
 
 import { cocreatieData } from "@/data/cocreatieData";
-// import { vrBenefits } from "@/data/vrBenefits"
 
 export default function LucaPage() {
   
-  const person = cocreatieData.find(entry => entry.person === "Luca");
+  const person = cocreatieData.find(entry => entry.person === "Adia");
 
 
   return (
