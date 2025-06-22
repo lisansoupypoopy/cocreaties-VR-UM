@@ -1,4 +1,4 @@
-import oneImg from "@/images/1.svg";
+import oneImg from "@/public/1.svg";
 import SmallTitle from "@/components/SmallTitle";
 
 
@@ -22,20 +22,19 @@ export default function Brainstorming(props){
         </div>
 
         <div className="flex flex-col gap-[100px] mt-8">
-            {props.brainstorms.map((quote, index) => (
-                <div key={index}
-                className={`flex gap-[50px] ${
-                    index % 2 === 1 ? 'flex-row-reverse' : ''
-                }`}
+            {props.brainstorms.map((item, index) => (
+                <div
+                    key={index}
+                    className={`flex gap-[50px] ${index % 2 === 1 ? 'flex-row-reverse' : ''}`}
                 >
                     <div className="flex-1 aspect-1/1 h-min bg-[#7FC29B] rounded-4xl flex items-center justify-center">
                         <img
-                            src="/images/vr-poppetje.png"
-                            alt="Persoontje"
+                            src={item.image.src}
+                            alt={item.image.alt}
                         />
                     </div>
                     <p className="bg-[#B0AFC6] h-min flex-3 p-[50px] text-2xl rounded-4xl">
-                        {quote}
+                        "{item.text}"
                     </p>
                 </div>
             ))}

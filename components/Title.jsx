@@ -26,6 +26,6 @@ export default function Title(props){
     }, []);
 
     return(
-        <h1 ref={titleRef} className="text-6xl p-15 rounded-[50px] bg-[#B5EF8A] mx-auto mt-15">{props.title}</h1>
+        <h1 ref={titleRef} id={props.id} className="text-6xl p-15 rounded-[50px] bg-[#B5EF8A] mx-auto mt-15 scroll-mt-38">{props.title}</h1>
     )
 }

@@ -1,4 +1,4 @@
-import vrPoppetje from '@/images/vr-poppetje.png';
+import vrPoppetje from '@/public/vr-poppetje.png';
 import Link from 'next/link'
 
 export default function Navbar() {
@@ -8,11 +8,10 @@ export default function Navbar() {
                 <ul className="navbar-links flex align-center items-center pl-10">
                     <li className="pl-3 pr-3 w-12"><img src={vrPoppetje.src} alt="Poppetje met VR bril"/></li>
                     <li className="pl-3 pr-3 hover:underline"><Link href="/">Home</Link></li>
-                    
                 </ul>
                 <ul className="navbar-links flex align-center pr-10">
-                    <li className="pl-5 pr-5 hover:underline"><a href="#">The stories</a></li>
-                    <li className="pl-5 pr-5 hover:underline"><a href="#">BTS</a></li>
+                    <li className="pl-5 pr-5 hover:underline"><Link href="#thumbs">The stories</Link></li>
+                    <li className="pl-5 pr-5 hover:underline"><Link href="/behind-the-scenes">BTS</Link></li>
                 </ul>
             </nav>
         )

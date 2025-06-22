@@ -1,6 +1,6 @@
 // img import:
 // import vrPoppetje from '@/images/vr-poppetje.png';
-import lucaAdia from '@/images/image_luca_adia.png'; 
+import lucaAdia from '@/public/image_luca_adia.png'; 
 
 export default function Introduction(props) {
 

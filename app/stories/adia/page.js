@@ -5,10 +5,14 @@ import Introduction from "@/components/Introduction"
 import Profile from "@/components/Profile"
 import Brainstorming from "@/components/Brainstorming"
 import Drawing from "@/components/Drawing"
+import Conclusion from "@/components/Conclusion"
+import DiscoverMore from "@/components/DiscoverMore";
+
+import Link from "next/link";
 
 import { cocreatieData } from "@/data/cocreatieData";
 
-export default function LucaPage() {
+export default function AdiaPage() {
   
   const person = cocreatieData.find(entry => entry.person === "Adia");
 
@@ -25,7 +29,13 @@ export default function LucaPage() {
 
         <Brainstorming brainstorms={person.brainstorm} />
 
-        <Drawing />
+        <Drawing person={person.person} courseStory={person.courseStory} courseName={person.course.course} courseDescription={person.course.description}/>
+        
+        <Conclusion conclusion={person.conclusion} />
+
+        <Link href="#title" scroll={true} className="h-auto w-1/2 block text-4xl font-bold p-[20px] place-self-center-safe bg-[#B0AFC6] rounded-2xl mt-[200px] mb-[200px]">Back to top ^</Link>
+
+        <DiscoverMore currentPerson={person.person} />
 
         <Footer/>
     </div>

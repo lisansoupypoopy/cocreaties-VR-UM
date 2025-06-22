@@ -1,4 +1,3 @@
-
 import NavBar from "@/components/NavBar"
 import Footer from "@/components/Footer"
 import BenefitCard from "@/components/BenefitCard"
@@ -7,7 +6,7 @@ import { vrBenefits } from "@/data/vrBenefits"
 
 export default function BenefitPage() {
 
-    let benefits = vrBenefits.map((benefit) => {
+    let benefits = vrBenefits.map((benefit, index) => {
       return (
         <BenefitCard 
           key={benefit.id}
