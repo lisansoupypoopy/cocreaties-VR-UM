@@ -339,10 +339,10 @@ export const cocreatieData = [
       country: "USA",
       study: "Educational Development Research",
       personalityTraits: [
-        { trait: "Kind", color: "#FF63E5" },
         { trait: "Friendly", color: "#B0AFC6" },
-        { trait: "Patient", color: "#B5EF8A" },
         { trait: "Adventurous", color: "#FF63E5" },
+        { trait: "Kind", color: "#FF63E5" },
+        { trait: "Patient", color: "#B5EF8A" },
       ],
       quote: "Everything is an opportunity to learn",
     },
