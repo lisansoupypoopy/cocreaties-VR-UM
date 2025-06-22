@@ -332,7 +332,7 @@ export const cocreatieData = [
     profile: {
       name: "Rachel",
       image: {
-        src: "/Rachel_happy.svg",
+        src: "/rachel_happy.svg",
         alt: "Rachel's profile picture",
       },
       age: 27,
