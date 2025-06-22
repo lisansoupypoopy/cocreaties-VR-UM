@@ -25,11 +25,11 @@ export default function DaantjePage() {
 
         <Introduction text={person.introduction.text} src={person.introduction.image.src} alt={person.introduction.image.alt}/>
 
-        <Profile src={person.profile.image.src} alt={person.profile.image.alt} name={person.profile.name} study={person.profile.study} age={person.profile.age} country={person.profile.country} quote={person.profile.quote} traits={person.profile.personalityTraits} />
+        <Profile people={[person.profile]} multiple={false} />
 
         <Brainstorming brainstorms={person.brainstorm} />
 
-         <Drawing person={person.person} profile={person.profile} courseStory={person.courseStory} courseName={person.course.course} courseDescription={person.course.description}/>
+        <Drawing person={person.person} profile={person.profile} courseStory={person.courseStory} courseName={person.course.course} courseDescription={person.course.description}/>
         
         <Conclusion conclusion={person.conclusion} />
 
