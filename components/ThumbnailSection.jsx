@@ -30,8 +30,8 @@ export default function ThumbnailSection() {
                 <Link href="/stories/adia" className="w-3/4">
 
                     <article className="bg-[#7FC29B] rounded-4xl relative h-100 w-1/1  flex items-center justify-center">
-                        <img src={thumbnails[1].thumbImg} alt="VR mentor" className="w-auto h-9/10" />
-                        <h3 className="w-[97%] p-[20px] font-bold absolute bottom-3 left-3 text-3xl rounded-4xl bg-[#B0AFC6]">{thumbnails[1].tagline}</h3>
+                        <img src={thumbnails[1].thumbImg.src} alt="VR mentor" className="w-auto h-9/10" />
+                        <h3 className="w-[97%] p-[20px] font-bold absolute left-0 bottom-0 m-3 text-3xl rounded-4xl bg-[#B0AFC6]">{thumbnails[1].tagline}</h3>
                     </article>
                 </Link>
 
@@ -40,16 +40,16 @@ export default function ThumbnailSection() {
                     <Link href="/stories/rachel" className="w-1/2 rounded-4xl bg-[#B0AFC6] relative h-100">
 
                         <article className="relative h-1/1  flex items-center justify-center">
-                            <img src={thumbnails[3].thumbImg} alt="Fear of presentations" className="w-auto h-9/10" />
-                            <h3 className="w-[97%] p-[20px] font-bold absolute bottom-3 left-3 text-3xl rounded-4xl bg-[#FF63E5]">{thumbnails[3].tagline}</h3>
+                            <img src={thumbnails[3].thumbImg.src} alt="Fear of presentations" className="w-auto h-9/10" />
+                            <h3 className="w-[97%] p-[20px] font-bold absolute left-0 bottom-0 m-3 text-3xl rounded-4xl bg-[#FF63E5]">{thumbnails[3].tagline}</h3>
                         </article>
                     </Link>
 
                     <Link href="/stories/daantje" className="w-1/2 rounded-4xl bg-[#B0AFC6] relative h-100">
 
                         <article className="relative h-1/1 flex items-center justify-center">
-                            <img src={thumbnails[2].thumbImg} alt="VR surgery" className="w-auto h-9/10" />
-                            <h3 className="w-[97%] p-[20px] font-bold absolute bottom-3 left-3 text-3xl rounded-4xl bg-[#B5EF8A]">{thumbnails[2].tagline}</h3>
+                            <img src={thumbnails[2].thumbImg.src} alt="VR surgery" className="w-auto h-9/10" />
+                            <h3 className="w-[97%] p-[20px] font-bold absolute left-0 bottom-0 m-3 text-3xl rounded-4xl bg-[#B5EF8A]">{thumbnails[2].tagline}</h3>
                         </article>
                     </Link>
 
@@ -58,8 +58,8 @@ export default function ThumbnailSection() {
                 <Link href="/stories/luca" className="w-3/4 place-self-end">
 
                     <article className="bg-[#DFFF63] rounded-4xl relative h-100 w-1/1  flex items-center justify-center">
-                        <img src={thumbnails[0].thumbImg} alt="VR lab" className="w-auto h-9/10" />
-                        <h3 className="w-[97%] p-[20px] font-bold absolute bottom-3 left-3 text-3xl rounded-4xl bg-[#B0AFC6]">{thumbnails[0].tagline}</h3>
+                        <img src={thumbnails[0].thumbImg.src} alt="VR lab" className="w-auto h-9/10" />
+                        <h3 className="w-[97%] p-[20px] font-bold absolute left-0 bottom-0 m-3 text-3xl rounded-4xl bg-[#B0AFC6]">{thumbnails[0].tagline}</h3>
                     </article>
                 </Link>
 

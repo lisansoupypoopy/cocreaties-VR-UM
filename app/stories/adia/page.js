@@ -29,7 +29,7 @@ export default function AdiaPage() {
 
         <Brainstorming brainstorms={person.brainstorm} />
 
-        <Drawing person={person.person} courseStory={person.courseStory} courseName={person.course.course} courseDescription={person.course.description}/>
+        <Drawing person={person.person} profile={person.profile} courseStory={person.courseStory} courseName={person.course.course} courseDescription={person.course.description}/>
         
         <Conclusion conclusion={person.conclusion} />
 
