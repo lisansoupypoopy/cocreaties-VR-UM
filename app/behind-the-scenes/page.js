@@ -101,7 +101,7 @@ export default function BTS() {
       <p className="w-[calc(75%-25px)] font-bold text-3xl bg-[#B0AFC6] p-[30px] rounded-4xl mt-[50px] mb-[50px]">Gravity Sketch</p>
 
       <div className="flex gap-[50px] justify-center pb-[100px]">
-        <p className="text-2xl h-fit bg-[#7FC29B] p-[50px] w-1/2 rounded-4xl">We used Gravity Sketch to introduce people with VR: Gravity Sketch is a VR app where you can create 3D drawings. You can move around your creations and see them from every side, as if you're inside your own design.</p>
+        <p className="text-2xl h-fit bg-[#7FC29B] p-[50px] w-1/2 rounded-4xl">We used Gravity Sketch to introduce people with VR: Gravity Sketch is a VR app where you can create 3D drawings. You can move around your creations and see them from every side, as if you&apos;re inside your own design.</p>
         <img className="rounded-4xl h-fit w-1/2" src={btsData.gravitySketch.luca.src} alt={btsData.gravitySketch.luca.alt} />
       </div>
 
@@ -113,7 +113,7 @@ export default function BTS() {
       <p className="w-[calc(75%-25px)] font-bold text-3xl bg-[#B0AFC6] p-[30px] rounded-4xl mt-[50px] mb-[50px]">Brainstorming and Sketching</p>
 
       <div className="flex gap-[50px] justify-center">
-        <p className="text-2xl h-fit bg-[#B5EF8A] p-[50px] w-1/2 rounded-4xl">We used Gravity Sketch to introduce people with VR: Gravity Sketch is a VR app where you can create 3D drawings. You can move around your creations and see them from every side, as if you're inside your own design.</p>
+        <p className="text-2xl h-fit bg-[#B5EF8A] p-[50px] w-1/2 rounded-4xl">We used Gravity Sketch to introduce people with VR: Gravity Sketch is a VR app where you can create 3D drawings. You can move around your creations and see them from every side, as if you&apos;re inside your own design.</p>
         <img className="rounded-4xl h-fit w-1/2" src={btsData.questionnaire.src} alt={btsData.questionnaire.alt} />
       </div>
 
