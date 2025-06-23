@@ -52,11 +52,11 @@ export default function BTS() {
           <SmallTitle title="Let&apos;s Co-Create" />
           <div className="bg-[#DFFF63] rounded-4xl p-[30px] text-2xl mt-[50px]">
             <p>
-              A co-creation session is a gathering where different participants brainstorm ideas and solutions together. The process is all about equal collaboration, with everyone's unique perspective taking center stage.
+              A co-creation session is a gathering where different participants brainstorm ideas and solutions together. The process is all about equal collaboration, with everyone&apos;s unique perspective taking center stage.
               No prior experience with VR was needed. Although if you had some, that was a nice bonus!
             </p>
             <p>
-              We started by asking a few short questions about VR, then gave everyone the chance to get familiar with the headset. After that, participants tried out several applications we had prepared. We ended the session with a short brainstorm and a conversation about everyone's experience.
+              We started by asking a few short questions about VR, then gave everyone the chance to get familiar with the headset. After that, participants tried out several applications we had prepared. We ended the session with a short brainstorm and a conversation about everyone&apos;s experience.
             </p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function BTS() {
               By using tools like VR and Gravity Sketch, we can support those who learn best through images, space, interaction, and movement. These technologies make it possible to design learning experiences that are immersive, intuitive, and deeply personal.
             </p>
             <p>
-              Let's give students the chance to learn in a way that fits them. Not just the way that fits the system.
+              Let&apos;s give students the chance to learn in a way that fits them. Not just the way that fits the system.
             </p>
           </div>
         </div>
