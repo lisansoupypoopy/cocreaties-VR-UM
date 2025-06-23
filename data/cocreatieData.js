@@ -95,7 +95,11 @@ export const cocreatieData = [
         imgBg: "#B0AFC6"
       }
     ],
-    conclusion: "What if students could actually rehearse complex lab procedures whenever and wherever they want? That’s where virtual rehearsal comes in. Instead of just watching or reading about flow cytometry, they could actually try it, without the expensive equipment or crowded labs. By creating a VR experience where students can explore, repeat, and interact with biomedical experiments, we open the door to contextualized learning. It’s no longer just theory, it’s something they can step into. With focused immersion, distractions fade away, and understanding clicks faster. We wanted to give them extraordinary abilities: zoom into cells, walk through molecular processes, or replay that one tricky step until it makes sense. And because it’s all in VR, students can experience this remote presence from home, the library, or wherever they feel most focused.",
+    conclusion: (
+      <>
+        What if students could actually rehearse complex lab procedures whenever and wherever they want? That’s where <a href="/key-benefits-of-vr" className="underline hover:font-bold">virtual rehearsal</a> comes in. Instead of just watching or reading about flow cytometry, they could actually try it, without the expensive equipment or crowded labs. By creating a VR experience where students can explore, repeat, and interact with biomedical experiments, we open the door to <a href="/key-benefits-of-vr" className="underline hover:font-bold">contextualized learning</a>. It’s no longer just theory, it’s something they can step into. With <a href="/key-benefits-of-vr" className="underline hover:font-bold">focused immersion</a>, distractions fade away, and understanding clicks faster. We wanted to give them <a href="/key-benefits-of-vr" className="underline hover:font-bold">extraordinary abilities</a>: zoom into cells, walk through molecular processes, or replay that one tricky step until it makes sense. And because it’s all in VR, students can experience this remote presence from home, the library, or wherever they feel most focused.",
+      </>
+    ),
   },
   {
     person: "Adia",
@@ -200,7 +204,13 @@ export const cocreatieData = [
         imgBg: "#7FC29B"
       }
     ],
-    conclusion: "What if students could reflect on their progress and connect with mentors whenever and wherever they feel most at ease? Instead of rushed meetings squeezed between busy schedules, students can step into a calm, personalized VR space one that invites focus, reflection, and meaningful connection. By creating a VR experience where students can set learning goals, track their progress, and meet with mentors in an environment they choose, we open the door to active autonomy. They decide when to check in, where they want to be, and how they want to work. In this immersive space, distractions fade, and motivation has room to grow. Somewhere they can write in a virtual journal, revisit their goals, or reflect without judgment. And because it’s all in VR, mentors can join too whether in a planned session or spontaneously sharing the same virtual setting. This shared remote presence helps build connection, even from a distance.",
+    conclusion: (
+      <>
+        What if students could reflect on their progress and connect with mentors whenever and wherever they feel most at ease? Instead of rushed meetings squeezed between busy schedules, students can step into a calm, personalized VR space one that invites focus, reflection, and meaningful connection. By creating a VR experience where students can set learning goals, 
+        track their progress, and meet with mentors in an environment they choose, we open the door to <a href="/key-benefits-of-vr" className="underline hover:font-bold">active autonomy</a>. They decide when to check in, where they want to be, and how they want to work. In this immersive space, distractions fade, and motivation has room to grow. Somewhere they can write in a virtual journal, revisit their goals, or reflect without judgment. 
+        And because it’s all in VR, mentors can join too whether in a planned session or spontaneously sharing the same virtual setting. This shared <a href="/key-benefits-of-vr" className="underline hover:font-bold">remote presence</a> helps build connection, even from a distance.
+      </>
+    ),
   },
   {
     person: "Daantje",
@@ -305,8 +315,12 @@ export const cocreatieData = [
         imgBg: "#DFFF63"
       },
     ],
-    conclusion:
-      "What if medical students could safely practice surgery, build confidence, and develop essential skills in a risk-free environment? In virtual reality, they can enter simulations where trial and error is part of the process. Mistakes don’t harm patients—they improve understanding. Whether it’s suturing, handling instruments, or responding under pressure, students can repeat scenarios endlessly. VR gives students the opportunity to make the transition from observer to participant in a meaningful way.",
+    conclusion:(
+      <>
+        What if medical students could safely practice surgery, build confidence, and develop essential skills in a risk-free environment? In virtual reality, they can enter simulations where trial and error is part of the process. 
+        Mistakes won’t harm patients: they will improve understanding. Whether it’s suturing, handling instruments, or responding under pressure, students can repeat scenarios endlessly. VR gives students the opportunity to make the transition from observer to participant in a meaningful way.
+      </>
+    ),
   },
   {
     person: "Rachel",
@@ -403,7 +417,10 @@ export const cocreatieData = [
         imgBg: "#DFFF63"
       },
     ],
-    conclusion:
-      "What if students could train their presentation skills in a space that feels safe, playful, and completely their own? In VR, they enter a world of focused immersion, where outside distractions disappear and all their attention is on practicing and improving. This immersive setting helps reduce anxiety and keeps their mind clear. They can rehearse presentations with full control—adding fun distractions like spiders or applause, or choosing a quiet room. This virtual rehearsal lets them experiment and build confidence at their own pace.",
+    conclusion:(
+      <>
+        What if students could train their presentation skills in a space that feels safe, playful, and completely their own? In VR, they enter a world of <a href="/key-benefits-of-vr" className="underline hover:font-bold">focused immersion</a>, where outside distractions disappear and all their attention is on practicing and improving. This immersive setting helps reduce anxiety and keeps their mind clear. They can rehearse presentations with full control—adding fun distractions like spiders or applause, or choosing a quiet room. This <a href="/key-benefits-of-vr" className="underline hover:font-bold">virtual rehearsal</a> lets them experiment and build confidence at their own pace.
+      </>
+      ),
   },
 ]

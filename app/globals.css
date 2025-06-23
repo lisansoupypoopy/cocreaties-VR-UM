@@ -19,10 +19,16 @@
   }
 }
 
+@layer base {
+  p {
+    @apply leading-[34px];
+  }
+}
+
 body {
   background: #181818;
-  /* color: white; */
   font-family: fractul-variable, sans-serif;
+
 }
 html {
   scroll-behavior: smooth;

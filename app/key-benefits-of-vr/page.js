@@ -2,6 +2,8 @@ import NavBar from "@/components/NavBar"
 import Footer from "@/components/Footer"
 import BenefitCard from "@/components/BenefitCard"
 import Title from "@/components/Title"
+import Link from "next/link"
+
 import { vrBenefits } from "@/data/vrBenefits"
 
 export default function BenefitPage() {
@@ -25,6 +27,8 @@ export default function BenefitPage() {
         <div className="flex flex-col mt-80">
             {benefits}
         </div>
+
+        <Link href="#title" scroll={true} className="h-auto w-1/2 block text-4xl font-bold p-[20px] place-self-center-safe bg-[#B0AFC6] rounded-2xl mt-[200px] mb-[200px]">Back to top ^</Link>
         
         <Footer />
     </div>

@@ -8,7 +8,7 @@ export const btsData = {
     },
     lisanProfile: {
         image: {
-            src: "",
+            src: "/lisan_happy.svg",
             alt: "Lisan moet nog getekend worden :)",
         },
         name: "Lisan",
