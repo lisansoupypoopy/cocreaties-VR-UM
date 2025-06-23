@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useRef } from "react"
-import romyEnLisan from '@/public/polaroid.png'
+import romyEnLisan from '@/public/hero_img.png'
 
 export default function HeroSection() {
     const titleRef = useRef();
@@ -25,13 +25,13 @@ export default function HeroSection() {
 
         
     return (
-        <section className="hero-section flex mt-25 gap-4 mx-auto rounded-3xl">
+        <section className="hero-section flex mt-25 gap-[50px] mx-auto rounded-3xl">
             <div className="bg-[#B5EF8A] rounded-3xl p-5 w-1/2 h-fit">
                 <h1 ref={titleRef} className="fractul-title text-6xl mb-5">Shared stories. Shared making. Shared meaning.</h1>
                 <p>We are <span className="font-bold">Romy</span> and <span className="font-bold">Lisan</span>, students of Communication and Multimedia Design at Hogeschool Zuyd. Our project involved co-creating with students, to come up with innovative VR applications. We used their ideas and dreams to turn real needs into meaningful digital experiences.</p>
             </div>
             <div className="w-1/2 flex items-center justify-center">
-                <img className="rounded-3xl w-1/2 h-auto" src={romyEnLisan.src} alt="A picture of Romy and Lisan"/>
+                <img className="rounded-3xl h-auto" src={romyEnLisan.src} alt="A picture of Romy and Lisan"/>
             </div>
         </section>
     )
