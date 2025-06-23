@@ -42,8 +42,8 @@ export default function BTS() {
 
       <div className="flex justify-center gap-[50px] pb-[50px]">
         <div className="bg-[#B5EF8A] text-2xl p-[50px] rounded-4xl flex-3">
-          <p className="pb-5">"What followed was a period full of ups and downs. It was very valuable for my learning process, but in the moment it was quite stressful. I sometimes found (and still find) it difficult to work on the project, because there were so many different paths to explore. I find it hard to write down our process because it goes in so many different directions. </p>
-          <p>We tried a bit of everything and had conversations with various people. Many had different opinions and ideas, which is logical. The designer’s task is to summarize all those ideas into one final design. Maybe I was afraid of making mistakes; you don’t want to forget anything, so maybe that’s why you end up doing nothing at all."</p>
+          <p className="pb-5">&quot;What followed was a period full of ups and downs. It was very valuable for my learning process, but in the moment it was quite stressful. I sometimes found (and still find) it difficult to work on the project, because there were so many different paths to explore. I find it hard to write down our process because it goes in so many different directions. </p>
+          <p>We tried a bit of everything and had conversations with various people. Many had different opinions and ideas, which is logical. The designer&apos;s task is to summarize all those ideas into one final design. Maybe I was afraid of making mistakes; you don&apos;t want to forget anything, so maybe that&apos;s why you end up doing nothing at all.&quot;</p>
         </div>
         <div className="flex-1 aspect-1/1 h-min bg-[#7FC29B] rounded-4xl flex items-center justify-center">
           <img
@@ -60,8 +60,8 @@ export default function BTS() {
 
       <div className="flex flex-row-reverse justify-center gap-[50px] pb-[50px]">
         <div className="bg-[#B5EF8A] text-2xl p-[50px] rounded-4xl flex-3">
-          <p className="pb-5">"We interviewed three FHML students who already had some experience with VR. Their reaction wasn’t very enthusiastic (read: 🙄). The apps they had tested in class often missed the mark, and students tend to be brutally honest about that. But that actually gave us more motivation: it can be done better. VR cán be meaningful in education - but only if it’s done right. </p>
-          <p>We chose to involve students very closely, by having them give their opinions via co-creation. I had never even heard of co-creation before, but it seemed like this was the perfect opportunity to learn. It took a few weeks to perfect, and the first session was far from perfect, but with some hard work we managed to get there in the end. And we had a lot of fun during the process!"</p>
+          <p className="pb-5">&quot;We interviewed three FHML students who already had some experience with VR. Their reaction wasn&apos;t very enthusiastic (read: 🙄). The apps they had tested in class often missed the mark, and students tend to be brutally honest about that. But that actually gave us more motivation: it can be done better. VR cán be meaningful in education - but only if it&apos;s done right. </p>
+          <p>We chose to involve students very closely, by having them give their opinions via co-creation. I had never even heard of co-creation before, but it seemed like this was the perfect opportunity to learn. It took a few weeks to perfect, and the first session was far from perfect, but with some hard work we managed to get there in the end. And we had a lot of fun during the process!&quot;</p>
         </div>
         <div className="flex-1 aspect-1/1 h-min bg-[#7FC29B] rounded-4xl flex items-center justify-center">
           <img
