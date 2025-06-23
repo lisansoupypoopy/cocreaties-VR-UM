@@ -9,7 +9,7 @@ export const btsData = {
     lisanProfile: {
         image: {
             src: "/lisan_happy.svg",
-            alt: "Lisan moet nog getekend worden :)",
+            alt: "Lisan",
         },
         name: "Lisan",
         study: "CMD",
@@ -39,5 +39,37 @@ export const btsData = {
             { trait: "Idealistic", color: "#B0AFC6" },
             { trait: "Sporty", color: "#B5EF8A" }
         ],
+    },
+    onzeImages: {
+        romyVr: {
+            src: "/romy_vr_foto.png",
+            alt: "Romy wearing a VR headset",
+        },
+        romyPaper: {
+            src: "/romy_paper_foto.png",
+            alt: "Romy's short paper",
+        },
+        lisanVr:{
+            src: "/lisan_vr_foto.png",
+            alt: "Lisan wearing a VR headset",
+        },
+        lisanCocreatie: {
+            src: "/lisan_cocreatie_foto.png",
+            alt: "Lisan's co-creation session",
+        },
+    },
+    gravitySketch: {
+        luca: {
+            src: "/luca_gravity_sketch.png",
+            alt: "Luca gravity sketch",
+        },
+        romy: {
+            src: "/romy_gravity_sketch.png",
+            alt: "Romy gravity sketch",
+        },
+    },
+    questionnaire: {
+        src: "/brainstorming_foto.png",
+        alt: "adia filling out a questionnaire",
     },
 }

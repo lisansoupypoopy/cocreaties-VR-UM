@@ -33,6 +33,7 @@ export default function Brainstorming(props){
                             alt={item.image.alt}
                         />
                     </div>
+                    
                     <p className="bg-[#B0AFC6] h-min flex-3 p-[50px] text-2xl rounded-4xl">
                         "{item.text}"
                     </p>

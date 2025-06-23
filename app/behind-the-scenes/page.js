@@ -4,8 +4,10 @@ import Title from "@/components/Title"
 import Introduction from "@/components/Introduction"
 import Profile from "@/components/Profile"
 import SmallTitle from "@/components/SmallTitle"
+import DiscoverMore  from "@/components/DiscoverMore"
 
 import { btsData } from "@/data/btsData";
+import Link from "next/link";
 
 import oneImg from "@/public/1.svg";
 import twoImg from "@/public/2.svg";
@@ -38,11 +40,44 @@ export default function BTS() {
 
       </div>
 
+      <div className="flex justify-center gap-[50px] pb-[50px]">
+        <div className="bg-[#B5EF8A] text-2xl p-[50px] rounded-4xl flex-3">
+          <p className="pb-5">"What followed was a period full of ups and downs. It was very valuable for my learning process, but in the moment it was quite stressful. I sometimes found (and still find) it difficult to work on the project, because there were so many different paths to explore. I find it hard to write down our process because it goes in so many different directions. </p>
+          <p>We tried a bit of everything and had conversations with various people. Many had different opinions and ideas, which is logical. The designer’s task is to summarize all those ideas into one final design. Maybe I was afraid of making mistakes; you don’t want to forget anything, so maybe that’s why you end up doing nothing at all."</p>
+        </div>
+        <div className="flex-1 aspect-1/1 h-min bg-[#7FC29B] rounded-4xl flex items-center justify-center">
+          <img
+            src={btsData.romyProfile.image.src} 
+            alt={btsData.romyProfile.image.alt} 
+          />
+        </div>
+      </div>
 
-{/* hier komt nog wat tussen */}
+      <div className="flex justify-center gap-[50px] pb-[100px]">
+        <img className="w-[calc(50%-25px)]" src={btsData.onzeImages.romyVr.src} alt={btsData.onzeImages.romyVr.alt}/>
+        <img className="w-[calc(50%-25px)]" src={btsData.onzeImages.romyPaper.src} alt={btsData.onzeImages.romyPaper.alt}/>
+      </div>
+
+      <div className="flex flex-row-reverse justify-center gap-[50px] pb-[50px]">
+        <div className="bg-[#B5EF8A] text-2xl p-[50px] rounded-4xl flex-3">
+          <p className="pb-5">"We interviewed three FHML students who already had some experience with VR. Their reaction wasn’t very enthusiastic (read: 🙄). The apps they had tested in class often missed the mark, and students tend to be brutally honest about that. But that actually gave us more motivation: it can be done better. VR cán be meaningful in education - but only if it’s done right. </p>
+          <p>We chose to involve students very closely, by having them give their opinions via co-creation. I had never even heard of co-creation before, but it seemed like this was the perfect opportunity to learn. It took a few weeks to perfect, and the first session was far from perfect, but with some hard work we managed to get there in the end. And we had a lot of fun during the process!"</p>
+        </div>
+        <div className="flex-1 aspect-1/1 h-min bg-[#7FC29B] rounded-4xl flex items-center justify-center">
+          <img
+            src={btsData.lisanProfile.image.src} 
+            alt={btsData.lisanProfile.image.alt} 
+          />
+        </div>
+      </div>
+
+      <div className="flex justify-center gap-[50px] pb-[200px]">
+        <img className="w-[calc(50%-25px)]" src={btsData.onzeImages.lisanCocreatie.src} alt={btsData.onzeImages.lisanCocreatie.alt}/>
+        <img className="w-[calc(50%-25px)]" src={btsData.onzeImages.lisanVr.src} alt={btsData.onzeImages.lisanVr.alt}/>
+      </div>
 
 
-      <div className="flex flex-row-reverse justify-center gap-[50px] pt-60 pb-25">
+      <div className="flex flex-row-reverse justify-center gap-[50px]">
 
         <div className="flex-1 aspect-1/1 h-min bg-[#B0AFC6] flex items-center justify-center rounded-4xl">
           <img src={twoImg.src} alt={twoImg.alt} />
@@ -63,11 +98,24 @@ export default function BTS() {
 
       </div>
 
+      <p className="w-[calc(75%-25px)] font-bold text-3xl bg-[#B0AFC6] p-[30px] rounded-4xl mt-[50px] mb-[50px]">Gravity Sketch</p>
 
+      <div className="flex gap-[50px] justify-center pb-[100px]">
+        <p className="text-2xl h-fit bg-[#7FC29B] p-[50px] w-1/2 rounded-4xl">We used Gravity Sketch to introduce people with VR: Gravity Sketch is a VR app where you can create 3D drawings. You can move around your creations and see them from every side, as if you're inside your own design.</p>
+        <img className="rounded-4xl h-fit w-1/2" src={btsData.gravitySketch.luca.src} alt={btsData.gravitySketch.luca.alt} />
+      </div>
 
-{/* nog spul tussen */}
+      <div className="flex gap-[50px] justify-center">
+        <img className="rounded-4xl w-1/2 h-fit" src={btsData.gravitySketch.romy.src} alt={btsData.gravitySketch.romy.alt} />
+        <p className="text-2xl h-fit bg-[#FF63E5] p-[50px] w-1/2 rounded-4xl">We played a game where we drew something in VR and hid a specific object. The other person needed to find it. If they did, they could also draw something. This was really fun. We made our drawing very abstract to encourage people to draw whatever they want. It doesn’t need to be realistic to fulfill its purpose.</p>
+      </div>
 
+      <p className="w-[calc(75%-25px)] font-bold text-3xl bg-[#B0AFC6] p-[30px] rounded-4xl mt-[50px] mb-[50px]">Brainstorming and Sketching</p>
 
+      <div className="flex gap-[50px] justify-center">
+        <p className="text-2xl h-fit bg-[#B5EF8A] p-[50px] w-1/2 rounded-4xl">We used Gravity Sketch to introduce people with VR: Gravity Sketch is a VR app where you can create 3D drawings. You can move around your creations and see them from every side, as if you're inside your own design.</p>
+        <img className="rounded-4xl h-fit w-1/2" src={btsData.questionnaire.src} alt={btsData.questionnaire.alt} />
+      </div>
 
       <div className="flex justify-center gap-[50px] pt-60 pb-25">
 
@@ -94,6 +142,10 @@ export default function BTS() {
         </div>
 
       </div>
+
+      <Link href="#title" scroll={true} className="h-auto w-1/2 block text-4xl font-bold p-[20px] place-self-center-safe bg-[#B0AFC6] rounded-2xl mt-[200px] mb-[200px]">Back to top ^</Link>
+
+      <DiscoverMore />
 
       <Footer />
     </div>
