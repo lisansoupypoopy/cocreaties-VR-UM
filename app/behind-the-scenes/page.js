@@ -49,10 +49,10 @@ export default function BTS() {
         </div>
 
         <div className="flex-3">
-          <SmallTitle title="Let's Co-Create" />
+          <SmallTitle title="Let&apos;s Co-Create" />
           <div className="bg-[#DFFF63] rounded-4xl p-[30px] text-2xl mt-[50px]">
             <p>
-              A co-creation session is a gathering where different participants brainstorm ideas and solutions together. The process is all about equal collaboration, with everyone’s unique perspective taking center stage.
+              A co-creation session is a gathering where different participants brainstorm ideas and solutions together. The process is all about equal collaboration, with everyone's unique perspective taking center stage.
               No prior experience with VR was needed. Although if you had some, that was a nice bonus!
             </p>
             <p>
@@ -88,7 +88,7 @@ export default function BTS() {
               By using tools like VR and Gravity Sketch, we can support those who learn best through images, space, interaction, and movement. These technologies make it possible to design learning experiences that are immersive, intuitive, and deeply personal.
             </p>
             <p>
-              Let’s give students the chance to learn in a way that fits them. Not just the way that fits the system.
+              Let's give students the chance to learn in a way that fits them. Not just the way that fits the system.
             </p>
           </div>
         </div>
