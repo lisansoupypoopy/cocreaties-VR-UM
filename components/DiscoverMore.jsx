@@ -11,7 +11,7 @@ export default function DiscoverMore({ currentPerson }){
     <>
       <SmallTitle title="Discover more" />
 
-      <div className="grid grid-cols-4 gap-[50px] mt-[50px] mb-[100px]">
+      <div id="discover-more" className="grid grid-cols-4 gap-[50px] mt-[50px] mb-[100px] scroll-mt-[300px]">
 
         {others.map((person) => (
           <Link href={`/stories/${person.person.toLowerCase()}`} scroll={true} className="w-full" key={person.person}>
