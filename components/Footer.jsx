@@ -7,7 +7,7 @@ export default function Footer() {
             <p>© 2025 Romy & Lisan</p>
             <ul>
                 <li className="text-right pb-[5px]"><Link href="/" className="hover:underline">Home</Link></li>
-                <li className="text-right pb-[5px]"><Link href="/key-benefits-of-VR" className="hover:underline">Key benefits of VR</Link></li>
+                <li className="text-right pb-[5px]"><Link href="/key-benefits-of-vr" className="hover:underline">Key benefits of VR</Link></li>
                 <li className="text-right"><Link href="/behind-the-scenes" className="hover:underline">Behind The Scenes</Link></li>
             </ul>
         </footer>
