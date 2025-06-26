@@ -105,9 +105,9 @@ export const cocreatieData = [
       image: {
         src:"/flow_cytometry_vr_app.png",
         alt:"a lab in VR with a flow cytometry machine",
-      }
-    },
-    link: "https://praxilabs.com/en/3d-simulations/flow-cytometry-biology-virtual-lab-simulation"
+      },
+      link: "https://praxilabs.com/en/3d-simulations/flow-cytometry-biology-virtual-lab-simulation"
+    }
   },
   {
     person: "Adia",
