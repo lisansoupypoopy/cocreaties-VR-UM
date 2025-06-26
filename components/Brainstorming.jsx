@@ -15,7 +15,7 @@ export default function Brainstorming(props){
             <div className="flex-3">
                 <SmallTitle title="Brainstorming" />
                 <div className="bg-[#DFFF63] rounded-4xl p-[30px] text-2xl mt-[50px]">
-                    <p>In order to gather valuable stories and insights to shape our VR solution, we had to collect a little more information on the students’ curriculum. What do they do exactly, what drives them, and what do they think is lacking? Finding out their wants and needs. We guided participants with and without VR experience in exploring different applications and had them share their thoughts through guided questions and a short brainstorm. We won’t bore you with the details, so here is a short passage:</p>
+                    <p>In order to gather valuable stories and insights to shape our VR solution, we had to collect a little more information on the students’ curriculum. What do they do exactly, what drives them, and what do they think is lacking? Finding out their wants and needs. We guided participants with and without VR experience in exploring different applications and had them share their thoughts through guided questions and a short brainstorm. Here is a short passage:</p>
                 </div>
             </div>
 

@@ -23,6 +23,10 @@
   p {
     @apply leading-[34px];
   }
+  a, Link{
+    @apply font-bold underline;
+  }
+    
 }
 
 body {

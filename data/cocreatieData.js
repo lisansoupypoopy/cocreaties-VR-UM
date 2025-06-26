@@ -1,7 +1,7 @@
 export const cocreatieData = [
   {
     person: "Luca",
-    tagline: "Lab Skills for Everyone, Anytime",
+    tagline: "Luca's VR Laboratory",
     thumbImg: {
       src: "/VR-lab-thumb.png",
       alt: "Luca practicing in a VR lab"
@@ -100,10 +100,18 @@ export const cocreatieData = [
         What if students could actually rehearse complex lab procedures whenever and wherever they want? That’s where <a href="/key-benefits-of-vr" className="underline hover:font-bold">virtual rehearsal</a> comes in. Instead of just watching or reading about flow cytometry, they could actually try it, without the expensive equipment or crowded labs. By creating a VR experience where students can explore, repeat, and interact with biomedical experiments, we open the door to <a href="/key-benefits-of-vr" className="underline hover:font-bold">contextualized learning</a>. It’s no longer just theory, it’s something they can step into. With <a href="/key-benefits-of-vr" className="underline hover:font-bold">focused immersion</a>, distractions fade away, and understanding clicks faster. We wanted to give them <a href="/key-benefits-of-vr" className="underline hover:font-bold">extraordinary abilities</a>: zoom into cells, walk through molecular processes, or replay that one tricky step until it makes sense. And because it’s all in VR, students can experience this remote presence from home, the library, or wherever they feel most focused.",
       </>
     ),
+    app: {
+      text: "Flow Cytometry Virtual Lab by Praxi Labs is exactly what Luca had descibed. This app only touches upon one facet of Biomedical Approaches, flow cytometry, it is a great example of practicing biomedical skills in a safe virtual setting.",
+      image: {
+        src:"/flow_cytometry_vr_app.png",
+        alt:"a lab in VR with a flow cytometry machine",
+      }
+    },
+    link: "https://praxilabs.com/en/3d-simulations/flow-cytometry-biology-virtual-lab-simulation"
   },
   {
     person: "Adia",
-    tagline: "Our mentor is always busy. Why not a virtual one?",
+    tagline: "Adia's Tropcial Mentoring Island",
     thumbImg: {
       src: "/VR-mentor-thumb.png",
       alt: "Adia practicing in a VR mentor session"
@@ -192,7 +200,7 @@ export const cocreatieData = [
       {
         src: "/adia_drawing_3.png",
         alt: "A laptop opened, but no mentor in sight",
-        text: "On the other side there is a professor or tutor that’s very busy and doesn’t have that much time. This is an extra activity for them to do beside their jobs, resulting in sessions where everything is quickly handled. But sometimes the students wish for more time/help.",
+        text: "On the other side there is a professor or tutor who's very busy and doesn't have that much time. This is an extra activity for them to do beside their jobs, resulting in sessions where everything is quickly handled. But sometimes the students wish for more time/help.",
         textBg: "#FF63E5",
         imgBg: "#DFFF63"
       },
@@ -211,10 +219,18 @@ export const cocreatieData = [
         And because it’s all in VR, mentors can join too whether in a planned session or spontaneously sharing the same virtual setting. This shared <a href="/key-benefits-of-vr" className="underline hover:font-bold">remote presence</a> helps build connection, even from a distance.
       </>
     ),
+    app: {
+      text: "The app VIVE Talk reimagines journaling through VR, turning thoughts and memories into immersive and multidimensional experiences. It’s a great example of how VR can create a personalized space for reflection and connection.",
+      image: {
+        src:"/mentoring_vr_app.png",
+        alt:"a virtual journal",
+      },
+      link: "https://www.youtube.com/watch?v=OqlyxdJlQCY"
+    },
   },
   {
     person: "Daantje",
-    tagline: "Inside the Operating Room: Up Close in VR",
+    tagline: "Daantje's Operating Room",
     thumbImg: {
       src: "/Vr-operation-thumb.png",
       alt: "Daantje practicing surgery in VR"
@@ -321,10 +337,18 @@ export const cocreatieData = [
         Mistakes won’t harm patients: they will improve understanding. Whether it’s suturing, handling instruments, or responding under pressure, students can repeat scenarios endlessly. VR gives students the opportunity to make the transition from observer to participant in a meaningful way.
       </>
     ),
+    app: {
+      text: "The app Osso VR explores how virtual reality transforms surgical training making learning more immersive, effective, and accessible in the healthcare field. A great example of how VR can create a safe space for practicing complex skills.",
+      image: {
+        src:"/operation_vr_app.png",
+        alt:"a virtual operating room",
+      },
+      link: "https://www.ossovr.com/post/virtual-reality-for-surgical-training-101-the-ultimate-guide-to-vr-in-healthcare"
+    },
   },
   {
     person: "Rachel",
-    tagline: "Stage Fright Simulator",
+    tagline: "Rachel's Stage Fright Simulator",
     thumbImg: {
       src: "/fear-presentation-thumb.png",
       alt: "Rachel practicing presentation skills in VR"
@@ -421,6 +445,14 @@ export const cocreatieData = [
       <>
         What if students could train their presentation skills in a space that feels safe, playful, and completely their own? In VR, they enter a world of <a href="/key-benefits-of-vr" className="underline hover:font-bold">focused immersion</a>, where outside distractions disappear and all their attention is on practicing and improving. This immersive setting helps reduce anxiety and keeps their mind clear. They can rehearse presentations with full control—adding fun distractions like spiders or applause, or choosing a quiet room. This <a href="/key-benefits-of-vr" className="underline hover:font-bold">virtual rehearsal</a> lets them experiment and build confidence at their own pace.
       </>
-      ),
+    ),
+    app: {
+      text: "The app Ovation helps users gain confidence using realistic AI avatars in Virtual Reality. The user gets real-time AI-generated feedback about your performance. By adding AI to the mix can make the experience even more personalized and effective.",
+      image: {
+        src:"/presentation_vr_app.png",
+        alt:"a virtual presentation room",
+      },
+      link: "https://www.ovationvr.com/"
+    },
   },
 ]

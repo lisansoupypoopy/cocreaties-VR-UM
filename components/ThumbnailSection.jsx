@@ -21,7 +21,7 @@ export default function ThumbnailSection() {
 
     return (
         <>
-            <h2 id="thumbs" className="h-min w-3/4 text-5xl font-bold p-[30px] rounded-4xl bg-[#FF63E5] mt-[235px] mb-[50px] scroll-mt-35">
+            <h2 id="thumbs" className="h-min w-3/4 text-5xl font-bold p-[30px] rounded-4xl bg-[#FF63E5] mt-[50px] mb-[50px] scroll-mt-35">
                 Discover the stories
             </h2>
             

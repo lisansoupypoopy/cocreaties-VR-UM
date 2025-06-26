@@ -9,7 +9,7 @@ export default function DiscoverMore({ currentPerson }){
 
   return (
     <>
-      <SmallTitle title="Discover more" />
+      <SmallTitle title="More stories" />
 
       <div id="discover-more" className="grid grid-cols-4 gap-[50px] mt-[50px] mb-[100px] scroll-mt-[300px]">
 
