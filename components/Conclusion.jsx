@@ -5,8 +5,6 @@ import Link from "next/link";
 
 
 export default function Conclusion(props){
-
-    console.log(props.app.text);
     
     return(
         <>
@@ -26,7 +24,7 @@ export default function Conclusion(props){
             </div>
 
             <div className="flex justify-center gap-[50px]">
-                <Link rel="noopener noreferrer" target="_blank" href={props.app.link} className="w-1/2 h-min">
+                <Link href={props.app.link} className="w-1/2 h-min">
                     <img src={props.app.image.src} alt={props.app.image.alt}/>
                 </Link>
                 <div className="bg-[#FF63E5] w-1/2 rounded-4xl pt-[50px] pb-[50px] pl-[70px] pr-[70px] text-2xl ml-[50px]">
